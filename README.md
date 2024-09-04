@@ -15,10 +15,10 @@ This repository contains molecular structures and descriptors for the Tox24 chal
 
 This repository includes:
 
-- The [chemical structures](data/smiles_org+fixed.csv) provided by the organizers and curated by me using my RDKit pipeline.
-- **Training set** - a diversified set of 1000 compounds, used for training models [data/train.csv.xz](data/train.csv.xz)
-- **Validation set**: a diversified set of 100 compounds, used for final validation of models [data/validation.csv.xz](data/validation.csv.xz)
-- **Test set**: 500 compounds used to make predictions. It contains a leaderboard set (200 compounds) and a blind set (300 compounds) [data/test.csv.xz](data/test.csv.xz)
+- The chemical structures in SMILES format, provided by the organizers and curated by me using my RDKit pipeline `data/smiles_org+fixed.csv`.
+- Training set - a diversified set of 1000 compounds, used for training models `data/train.csv.xz`
+- Validation set: a diversified set of 100 compounds, used for final validation of models `data/validation.csv.xz`
+- Test set: 500 compounds used to make predictions. It contains a leaderboard set (200 compounds) and a blind set (300 compounds) `data/test.csv.xz`. 💡 This set contains compounds with known and unknown activity. Compounds with known activity are also the members of the Training/Validation set.
 
 ## Descriptors
 
